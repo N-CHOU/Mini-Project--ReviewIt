@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(Landing.png) ;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+
+}
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute ;
+    transform: translate(-50%,-50% );
+    box-sizing: border-box;
+    padding: 45px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 75%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.landing{
+    background-image: url(Landing.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100vh;
+
+}
+
+.text-wrapper{
+    width: 100%;
+    position: relative;
+    margin-top: -40%;
+}
+.text-wrapper h1{
+    text-align: center ;
+    color: blanchedalmond;
+}
+/* .Login{
+    justify-content: center;
+    display: flex;
+    /* align-items: center; */
+    /* margin-right: 50px;
+    
+    
+}
+
+.Explore{
+    justify-content: center;
+    display: flex;
+    margin-right: 60px;
+
+}  */
+
+.logintxt{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    margin-top: 400px;
+    margin-left: 750px;
+}
+.Element{
+    padding: 30px;
+    text-decoration: none;
+    font-size: 25px;
+}

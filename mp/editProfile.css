@@ -1,0 +1,39 @@
+.profile .edit-profile{
+    width: 95%;
+    max-width: 600px;
+    height: 100%;
+    /* margin-bottom: 30px; */
+}
+.profile .edit-profile h3 {
+    color: #121212;
+    margin-bottom: 20px;
+}
+.profile .edit-profile .form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+.edit-profile .form .form-group input {
+    height: 45px;
+    padding-left: 15px;
+}
+.edit-profile .form .form-group label {
+    margin-bottom: 5px;
+}
+
+.edit-profile .form button {
+    padding: 10px 32px;
+    background-color: #21B6CF;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 4px 1px gray;
+}
+.edit-profile .form button:hover {
+    background-color: #069eb9;
+}
+
+.container{
+    background: url("Movie_Strip.png");
+}
